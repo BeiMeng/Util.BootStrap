@@ -122,6 +122,9 @@
     <Compile Include="HtmlPackage\Lesson2\BootStrapButton\IButton.cs" />
     <Compile Include="HtmlPackage\Lesson2\BootStrapTextBox\ITextBox.cs" />
     <Compile Include="HtmlPackage\Lesson2\BootStrapTextBox\TextBox.cs" />
+    <Compile Include="HtmlPackage\Lesson2\Ex\HtmlTag.cs" />
+    <Compile Include="HtmlPackage\Lesson2\Ex\MyBootstraps.cs" />
+    <Compile Include="HtmlPackage\Lesson2\Ex\MyEnums.cs" />
     <Compile Include="HtmlPackage\Lesson2\HtmlHelperExtentions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

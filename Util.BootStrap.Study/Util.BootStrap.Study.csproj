@@ -114,7 +114,20 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="HtmlPackage\Builders\AttributeBuilder.cs" />
+    <Compile Include="HtmlPackage\Builders\JsonAttributeBuilder.cs" />
+    <Compile Include="HtmlPackage\Builders\Nodes\AttributeListNode.cs" />
+    <Compile Include="HtmlPackage\Builders\Nodes\IAttributeNode.cs" />
+    <Compile Include="HtmlPackage\Builders\Nodes\NameValuesAttributeNode.cs" />
+    <Compile Include="HtmlPackage\Builders\ParamBuilder.cs" />
+    <Compile Include="HtmlPackage\Builders\Tags\ButtonBuilder.cs" />
+    <Compile Include="HtmlPackage\Builders\Tags\HtmlStringBuilder.cs" />
+    <Compile Include="HtmlPackage\Builders\Tags\ITagBuilder.cs" />
+    <Compile Include="HtmlPackage\Builders\Tags\TagBuilder.cs" />
+    <Compile Include="HtmlPackage\Commom\CommomHelper.cs" />
+    <Compile Include="HtmlPackage\Extensions\EnumerableExtensions.cs" />
     <Compile Include="HtmlPackage\Extensions\EnumsExtensions.cs" />
+    <Compile Include="HtmlPackage\Extensions\NullObjectExtensions.cs" />
     <Compile Include="HtmlPackage\Lesson1\HtmlHelperExtentions.cs" />
     <Compile Include="HtmlPackage\Lesson2\BootStrapButton\Button.cs" />
     <Compile Include="HtmlPackage\Lesson2\BootStrapButton\ButtonColor.cs" />

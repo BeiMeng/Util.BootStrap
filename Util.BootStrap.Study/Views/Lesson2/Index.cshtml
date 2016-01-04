@@ -1,0 +1,17 @@
+﻿@using Util.BootStrap.Study.HtmlPackage.Lesson2
+@using Util.BootStrap.Study.HtmlPackage.Lesson2.BootStrapButton
+
+@{
+    ViewBag.Title = "Index";
+    var x = Html.BootStrap();
+}
+<br/>
+@x.Button().Name("危险")
+<br />
+@x.Button().Name("危险").Size().Color()
+<br />
+@x.Button().Name("危险").Size(ButtonSize.Large).Color(ButtonColor.Danger)
+<br/>
+@x.TextBox()
+
+

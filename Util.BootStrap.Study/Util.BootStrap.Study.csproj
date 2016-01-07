@@ -111,6 +111,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Lesson1Controller.cs" />
     <Compile Include="Controllers\Lesson2Controller.cs" />
+    <Compile Include="Controllers\Lesson3Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -139,6 +140,7 @@
     <Compile Include="HtmlPackage\Lesson2\Ex\MyBootstraps.cs" />
     <Compile Include="HtmlPackage\Lesson2\Ex\MyEnums.cs" />
     <Compile Include="HtmlPackage\Lesson2\HtmlHelperExtentions.cs" />
+    <Compile Include="HtmlPackage\Lesson3\BootStrapButtonGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +149,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Lesson3\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -141,6 +141,8 @@
     <Compile Include="HtmlPackage\Lesson2\Ex\MyEnums.cs" />
     <Compile Include="HtmlPackage\Lesson2\HtmlHelperExtentions.cs" />
     <Compile Include="HtmlPackage\Lesson3\BootStrapButtonGroup.cs" />
+    <Compile Include="HtmlPackage\Lesson3\ButtonGroupWrapper.cs" />
+    <Compile Include="HtmlPackage\Lesson3\IBootStrapButtonGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

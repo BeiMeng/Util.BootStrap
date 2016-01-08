@@ -6,13 +6,13 @@
     var x = Html.BootStrap();
 }
 <br />
-@using (x.ButtonGroup())
+@using (var group = x.ButtonGroup().Begin())
 {
-    @x.Button().Name("危险")
+    @group.Button().Name("危险")
     <br />
-    @x.Button().Name("危险").Size().Color()
+    @group.Button().Name("危险").Size().Color()
     <br />
-    @x.Button().Name("危险").Size(ButtonSize.Large).Color(ButtonColor.Danger)
+    @group.Button().Name("危险").Size(ButtonSize.Large).Color(ButtonColor.Danger)
     <br />
     @x.TextBox()
 }
